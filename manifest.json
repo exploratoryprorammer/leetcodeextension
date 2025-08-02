@@ -8,5 +8,14 @@
     },
     "background": {
         "service_worker": "service-worker.js"
-    } 
+    }, 
+    "permissions": [
+        "identity"
+    ],
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2mG8Xx7ndCr/RibXMHkI+gqAWJo6h5bBdJp/WOPnH6H+97/E3qulfiP+zsHWumxDaI8XCPbzRiVlscRzOa/zKoGzeJ7B5kZJ2iHXCSX1pNIsADCJ8S9NlFo84gOg9QPosJd2mnk4GJL8krHH/uNINb9R6TXTBWjL/YvhIY+ql58Om6Rq+W/etHFCgJbe/mQOCxJskpVx/zMEEc0KyqvYIec5MjB56ajNaMEjlZV+aaDgj0j0iO2Xtyx73NuCp9+ojI4gZcGl7hYcp3qv9QQ5fiMkDqvkqRSqg/PHdLtclYujKBvJgWRfsZ+C5gHnNGhyy0emE9xCeP1YvXsozDAhBQIDAQAB",
+    "oauth2": {
+        "client_id": "352669221989-2s6recgt795q2a433grrf9287qeeua2a.apps.googleusercontent.com",
+        "scopes":["https://www.googleapis.com/auth/userinfo.email"]
+    }
+    
 }
