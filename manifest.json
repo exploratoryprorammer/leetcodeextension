@@ -4,13 +4,15 @@
     "description": "AI powered leetcode problem tracker",
     "manifest_version": 3,
     "action": {
-    "default_title": "FriendBlock, friends face's in a block."
+        "default_title": "AI Powered Leetcode Tracker",
+        "default_popup": "popup.html"
     },
     "background": {
         "service_worker": "service-worker.js"
     }, 
     "permissions": [
-        "identity"
+        "identity",
+        "storage"
     ],
     "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2mG8Xx7ndCr/RibXMHkI+gqAWJo6h5bBdJp/WOPnH6H+97/E3qulfiP+zsHWumxDaI8XCPbzRiVlscRzOa/zKoGzeJ7B5kZJ2iHXCSX1pNIsADCJ8S9NlFo84gOg9QPosJd2mnk4GJL8krHH/uNINb9R6TXTBWjL/YvhIY+ql58Om6Rq+W/etHFCgJbe/mQOCxJskpVx/zMEEc0KyqvYIec5MjB56ajNaMEjlZV+aaDgj0j0iO2Xtyx73NuCp9+ojI4gZcGl7hYcp3qv9QQ5fiMkDqvkqRSqg/PHdLtclYujKBvJgWRfsZ+C5gHnNGhyy0emE9xCeP1YvXsozDAhBQIDAQAB",
     "oauth2": {

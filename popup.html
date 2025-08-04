@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Leetcode Tracker</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 15px;
+      width: 300px;
+    }
+    button {
+      background-color: #4285F4;
+      color: white;
+      border: none;
+      padding: 10px;
+      width: 100%;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+    button:hover {
+      background-color: #357ae8;
+    }
+    .hidden {
+      display: none;
+    }
+    #user-info {
+      margin-top: 15px;
+      text-align: center;
+    }
+    #user-info img {
+      width: 48px;
+      border-radius: 50%;
+    }
+    #user-email {
+      margin: 10px 0;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Leetcode Tracker</h2>
+  <div id="auth-section">
+    <p>Sign in to track your progress with AI.</p>
+    <button id="signin-btn">Sign in with Google</button>
+  </div>
+
+  <div id="user-info" class="hidden">
+    <img id="user-pic" src="" alt="Profile Picture" />
+    <div id="user-email"></div>
+    <button id="signout-btn">Sign out</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
